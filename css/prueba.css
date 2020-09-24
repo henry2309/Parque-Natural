@@ -1,0 +1,106 @@
+html{
+	background-color: #DFDFDF;
+}
+body{
+	font-family: 'Lucida Sans Unicode', sans-serif;
+	font-size: 14px;
+	background-color: #FFFFFF;
+	border: #d3d3d3;
+	text-align: justify;
+	margin: 10px auto;
+	width: 900px;
+	border-radius: 25px;
+}
+h1{
+	text-align: center;
+	color: #5f8f11;
+	letter-spacing: .2em;
+	background-image: url(img/panoramica.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	padding-top: 170px;
+	margin: 0;
+}
+h1 span{
+	color: #bf823b;
+}
+h2{
+	color:#70af0a;
+	border-bottom: #cfdfb5 solid;
+}
+h3{
+	color:#bf823b;
+	margin-bottom: 0;
+	margin-top: 25px;
+}
+section{
+	border: #d3d3d3 1px solid;
+	margin: 20px 20px 10px 140px;
+	padding: 10px 15px;
+	border-radius: 25px;
+	background: -moz-radial-gradient(center-ellipse, #FFFFFF00, #DFDFDF);
+	background: -webkit-radial-gradient(center-ellipse, #FFFFFF00, #DFDFDF);
+	background: -ms-radial-gradient(center-ellipse, #FFFFFF00, #DFDFDF);
+	background: -o-radial-gradient(center-ellipse, #FFFFFF00, #DFDFDF);
+}
+#menu{
+	float: left;
+	width: 100px;
+	margin: 20px;
+	padding: 0;
+	list-style-type: none;
+
+}
+#menu li{
+	border: #d3d3d3 1px solid;
+	background-color: #cbe783;
+	margin-bottom: 5px;
+	font-size: 90%;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 25px;
+	background: -moz-radial-gradient(bottom, #9ed01bff, #FFFFFF00);
+	background: -webkit-radial-gradient(bottom,#9ed01bff, #FFFFFF00);
+	background: -ms-radial-gradient(bottom,#9ed01bff, #FFFFFF00);
+	background: -o-radial-gradient(bottom,#9ed01bff, #FFFFFF00);
+}
+#menu a{
+	display: block;
+	text-decoration: none;
+	color: #4f4f4f;
+}
+#menu li:hover {
+	border-color: #9f9f9f;
+	background-color: #f6ffdf;
+}
+#menu li:hover a{
+	color:#000;
+}
+#menu li.activa, #menu li.activa:hover{
+	border: #d3d3d3 1px solid;
+	background-color: #fff;
+	background: -moz-radial-gradient(bottom, #Bf823b99, #FFFFFF00);
+	background: -webkit-radial-gradient(bottom,#Bf823b99, #FFFFFF00);
+	background: -ms-radial-gradient(bottom,#Bf823b99, #FFFFFF00);
+	background: -o-radial-gradient(bottom,#Bf823b99, #FFFFFF00);
+}
+#menu li.activa, #menu li.activa:hover a{
+	color: #000;
+
+}
+div.autores{
+	color:#bfbfbf;
+	font-size: 85%;
+	text-align: center;
+	font-style: oblique;
+}
+div.autores a{
+	color:#bfbfbf;
+}
+img.animal{
+	border-radius: #70af0a 2px solid;
+	background-color: #bf823b;
+	padding: 2px;
+	margin: 50px 0 10px 10px;
+	float: right;
+}
